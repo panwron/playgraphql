@@ -1,10 +1,16 @@
 {
     "users": [
-        { "id": "21", "firstName": "mike", "age": 21 },
-        { "id": "23", "firstName": "mike3", "age": 23 },
-        { "id": "22", "firstName": "mike2", "age": 22 },
-        { "id": "24", "firstName": "mike4", "age": 24 },
-        { "id": "25", "firstName": "mike5", "age": 25 }
+        { "id": "21", "firstName": "mike", "age": 21, "companyId": "1" },
+        { "id": "23", "firstName": "mike3", "age": 23, "companyId": "2" },
+        { "id": "22", "firstName": "mike2", "age": 22, "companyId": "2" },
+        { "id": "24", "firstName": "mike4", "age": 24, "companyId": "3" },
+        { "id": "25", "firstName": "mike5", "age": 25, "companyId": "4" }
 
+    ],
+    "companies": [
+        { "id": "1", "name": "company 1", "description": " compa 1 desc" },
+        { "id": "2", "name": "company 2", "description": " compa 2 desc 2 users" },
+        { "id": "3", "name": "company 3", "description": " compa 3 desc" },
+        { "id": "4", "name": "company 4", "description": " compa 4 desc" }
     ]
 }
